@@ -867,3 +867,139 @@
 
 
 
+                                          //chap 17 - 20
+
+
+
+//task#1
+
+//  var a = [ ,[],]
+//  document.write (typeof a);
+
+
+//task#2
+// var a = [ [0,1,2,3], [1,0,1,2],[2,1,0,1]];
+// console.log (a);
+
+//task#3
+// for (let i = 1; i <= 10; i++) {
+//         document.write( i , "</br>" );
+// }
+
+
+//task#4
+// var a = +prompt("Enter table number");
+// var b = +prompt("Enter table length");
+
+// for (let i = 1; i <= b; i++) {
+//         document.write (a ," x " , i, " = ", a*i , " </br> ");
+// }
+
+
+
+
+//task#5
+// var fruits = ["apple", "banana", "mango", "orange",
+//         "strawberry"];
+
+// for (let i = 1; i <= fruits.length; i++) {
+ 
+        
+//         document.write( "Element at index " + i + " is " + fruits[i]+ "</br>" ); 
+
+// }
+
+
+
+//task#6
+//simple count
+
+// var a = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,];
+
+// for (let i = 1;  i <= a.length ;  i++) {
+//                document.write ( [i] , "</br>" ) ;
+// }
+
+
+//reverse count
+
+//  var a = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,]
+//   for (let i = a.length; i >= 1;  i--) {
+//          document.write ( [i] , "</br>");
+//  }
+
+
+//retrive only even 
+
+//  var a = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,]
+// for (let i = 1; i <= a.length; i++) {
+//         if (i%2==0)
+//         document.write (i)
+// }
+
+        
+// retrive only odd
+
+//  var a = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,]
+
+//  for (let i = 0; i <= a.length; i++) {
+//         if (i%2 >0) 
+//                 document.write (i);
+//         }
+         
+ 
+
+//task#7
+
+// var a = ["cake" , "apple pie" , "cookie" , "chips" , "patties"];
+
+// var b = prompt (" what you looking for ");
+// var flag = false;
+// for (let i = 0; i < a.length; i++) {
+//         if ( b === a[i]) {
+//                 flag = true;
+//                 document.write(" item found at  index " + [i] );
+//         }
+        
+// }
+// if ( flag === false){
+//         document.write (" item not found ");
+// }
+
+
+
+//task#8
+
+// a = [24, 53, 78, 91, 12];
+// var max = 0 ;
+// for (let i = 0; i <= a.length; i++) {
+// if (max < a[i]){
+//         max = a[i];
+// }
+// }
+
+// document.write( "biggest number is " + max)
+// document.write("</br>")
+
+
+//task#9
+
+// a = [24, 53, 78, 91, 12];
+// var min = 100 ;
+// for (let i = 0; i <= a.length; i++) {
+// if ( min  > a[i]){
+//      min = a[i];
+// }
+// }
+
+// document.write( " our smallest number" + min)
+
+
+//task#10
+
+// var a = 5;
+// for (let i = 1; i <= 100; i++) {
+//         if (i%5==0) 
+//       document.write( i  +"</br> ");
+        
+// }
